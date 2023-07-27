@@ -23,7 +23,7 @@ function App() {
     { value: "RESET", specification: "special-big" },
     { value: "=", specification: "enter-big" },
   ];
-
+  const asd = "://--je00s57o8-pylenya.vercel.app/";
   const [theme, setTheme] = useState("light");
   const [value, setValue] = useState("0");
   const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
